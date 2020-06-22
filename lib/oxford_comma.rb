@@ -1,10 +1,11 @@
 def oxford_comma(array)
   if array.count == 1
-    new_arr = array.join
+    str = array.join
   elsif array.count == 2
-    new_arr = array.join(" and ")
+    str = array.join(" and ")
   else
-    new_arr = array.insert(-2, "and").join(", ")
+    new_var = array.delete(-1)
+    new_arr
   end
   new_arr
 end
