@@ -1,9 +1,8 @@
 def oxford_comma(array)
   if array.count == 1
-    array.join
+    new_arr = array.join
   else
-    array.insert(-2, "and")
-    array.join
+    new_arr = array.insert(-2, "and").join
   end
   array
 end
