@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     new_var = array.delete(-1)
     str = array.join
-    str
+    str << "and #{new_var}"
   end
   str
 end
