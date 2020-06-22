@@ -7,5 +7,6 @@ def oxford_comma(array)
       array.join(" and ")
     end
     counter += 1
+    array
   end
 end
