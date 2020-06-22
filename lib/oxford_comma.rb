@@ -7,7 +7,7 @@ def oxford_comma(array)
     new_arr = array.delete(-1).split
     new_arr.unshift("and")
     str1 = new_arr.join
-    str = array.join(", ")
+    str = array.join(", ") << str1
   end
   str
 end
