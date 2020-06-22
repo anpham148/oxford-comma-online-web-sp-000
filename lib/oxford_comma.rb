@@ -1,4 +1,9 @@
 def oxford_comma(array)
-  array.join
-  array.join(" and ")
+  counter = 1
+  array.each do |element|
+    if counter = 1
+      array.join
+    elsif counter = 2
+      array.join(" and ")
+    
 end
