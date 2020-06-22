@@ -8,7 +8,7 @@ def oxford_comma(array)
     new_var = new_arr.join(" ")
     array.delete(array[-1])
     new_arr1 = array.push(new_var)
-    str = array.join(", ")
+    str = new_arr1.join(", ")
   end
   str
 end
